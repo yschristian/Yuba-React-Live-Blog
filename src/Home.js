@@ -7,8 +7,8 @@ const Home =()=>{
             {title:'my new bblog13',body:'lorem ipsum....',author:'yub',id:3 }
         ])
     const handleDelete = (id)=>{
-       const newBlogs = blogs.filter(blog=>blog.id!==id);
-       setBlogs(newBlogs)
+       const newBlogs = blogs.filter(blog => blog.id !== id);
+       setBlogs(newBlogs);
         }
 
     return(
