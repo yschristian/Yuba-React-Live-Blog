@@ -25,9 +25,13 @@
   text-decoration: none;
   padding: 6px;
 }
-.navbar a:hover {
+.navbar .a:hover {
   color: #f1356d;
 }
+.navbar .cre:hover {
+  color: white;
+}
+
 .content {
   max-width: 600px;
   margin: 40px auto;
